@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    width: 100%;
+}
+
+a img {
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+    color: #271035;
+    background-color: #D9D7DD;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;  
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.col-sm-4 img {
+    width: 100%;
+}
+
+.container {
+    background-color: #7C5079;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+}
+
+form {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 10px;
+}
+
+label {
+    min-width: 120px; 
+    text-align: right;
+    color: #DBF9F4;
+    font-weight: bold;
+    text-align: center;
+}
+
+select, input {
+    background-color: #D9D7DD !important;
+    color: 5F7367;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    appearance: none; /* Hides default dropdown styling */
+}
+
+
+form button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #D9D7DD;
+    color: #271035;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    color: #DBF9F4;
+    font-size: 120%;
+    font-weight: bold;
+}
